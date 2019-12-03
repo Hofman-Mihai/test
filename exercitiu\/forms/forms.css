@@ -1,0 +1,12 @@
+progress {
+    appearance: none;
+    -webkit-appearance: none;
+}
+progress::-webkit-progress-bar {
+    background-color: rgb(233, 236, 228);
+    border-radius: 3px;
+}
+progress::-webkit-progress-value{
+    background-color: rgb(137, 223, 8);
+    border-radius: 3px;
+}

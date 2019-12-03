@@ -1,0 +1,52 @@
+a {
+    color: rgb(115, 187, 8);
+    text-decoration: none;
+}
+a:link {
+
+
+}
+a:visited {
+    color: brown;
+
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-style: wavy;
+}
+::selection {
+    background-color: rgb(10, 247, 255);
+}
+::first-line {
+    text-transform: capitalize;
+}
+.magic {
+    display: none;
+    position: absolute;
+    /*top: 1em;*/
+    background-color: red;
+    border-radius: 5px;
+}
+.dropdown {
+    position: absolute;
+    background-color: rgb(70, 207, 70);
+    padding: 3%;
+}
+.dropdown:hover .magic {
+    display: block;
+}
+.trans {
+    background-color: orange;
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    transform: rotate(30deg) scale(2, 2) rotateZ(150deg);
+    transition: 2s;
+}
+/* .trans:hover {
+    top: 20%;
+    background-color: red; */
+}
