@@ -1,0 +1,14 @@
+nav {
+    background-color: rgb(116, 116, 116);
+    display: flex;
+    justify-content: space-around;
+}
+div:first-child {
+    background-color: rgb(99, 228, 99);
+}
+div:nth-child(2) {
+    background-color: red;
+}
+div:last-child {
+    background-color: coral;
+}
